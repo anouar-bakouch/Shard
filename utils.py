@@ -2,7 +2,7 @@
 
 # the sharding function - hash the key and return the shard number
 
-def get_shard(key, num_shards):
+def get_shard_id(key, num_shards):
     """
     Returns the shard number for the given hashed value.
     args :
