@@ -4,7 +4,7 @@
 
 def get_shard(key, num_shards):
     """
-    Returns the shard number for the given key.
+    Returns the shard number for the given hashed value.
     args :
     key - string
     num_shards - int
